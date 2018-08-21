@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Scissors</title>
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="head">
+		<img src="rps.jpg" alt="Rock Paper Scissors">
+		<button class="styled">Hit It!</button>
+	</div>
+
+	<div id="container">
+		<div id="game">
+			<table>
+				<thead>
+					<th>Win</th>
+					<th>Loses</th>
+					<th>Tie</th>
+					<th>Total Games Played</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>0</td>
+						<td>0</td>
+						<td>0</td>
+						<td>0</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="divBody">
+			<img id="rock" src="rock.jpg" alt="rock">
+			<img id="paper" src="paper.jpg" alt="paper">
+			<img id="scissors" src="scissors.jpg" alt="scissors">
+		</div>
+		<div id="result">
+			
+		</div>
+		<button id="newGame">New Game</button>
+		<button id="quit">Quit</button>
+	</div>
+	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

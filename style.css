@@ -1,0 +1,81 @@
+body{
+    justify-content: center;
+    font-family: 'Baloo Bhai', cursive;
+    background-color: #D8D3D2;
+}
+#head{
+    margin: 0 15em;
+}
+    
+button {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    
+  
+}
+.styled{
+    background-color: rgba(0, 0, 220, 1);
+      margin: 5em 20em;
+}
+
+#newGame{
+    background-color: rgba(0, 220, 0, 1);
+     margin: 3em 10em;
+}
+#quit{
+    background-color: rgba(220, 0, 0, 1);
+    margin: 3em 10em;
+}
+
+button:hover {
+    background-color: rgba(255,255,0,0.3);
+}
+#container{
+    display:none;
+    justify-content: center;
+    margin: 0 15em;
+}
+
+.divBody img{
+    cursor: grabbing;
+    width: 15em;
+    height: 15em;
+    padding: 20px;
+    margin: 5px;
+}
+
+table,th,td{
+    text-align: center;
+        margin: 0 300px;
+    border: 2px solid black;
+
+}
+td,th{
+    padding: 10px;
+    margin: 10px;
+}
+#result{
+    
+    justify-content: center;
+}
+#result img{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 0 5em;
+}
+#result h3,h1{
+    margin: 0 5em;
+}
+#win,#loses,#tie{
+    margin:0 5em;
+}
+span{
+     margin: 0  em
+}
